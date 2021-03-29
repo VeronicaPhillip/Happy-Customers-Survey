@@ -31,22 +31,23 @@ The dataset was cleaned and transformed using feature engineering and split into
 # Prerequisites
 To run the code, there were a number of Python libraries that needed to be installed. These are as follows:
 
-*Pandas
-*NumPy
-*Matplotlib
-*Seaborn
-*Logistic RegressionCV
-*DecisionTree Classifier
-*Bagging Classifier
-*StandardScaler
-*Metrics
-*Train_test_split, cross_val_score, GridSearchCV
-*Accuracy_score
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Logistic RegressionCV
+* DecisionTree Classifier
+* Bagging Classifier
+* StandardScaler
+* Metrics
+* Train_test_split, cross_val_score, GridSearchCV
+* Accuracy_score
 
 
 # Summary/Findings
 The results from the models are summarised below:
-![image.jpg](attachment:image.jpg)
+
+![image.png](attachment:image.png)
 
 
  
