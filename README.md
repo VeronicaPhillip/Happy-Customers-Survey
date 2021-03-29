@@ -45,20 +45,11 @@ To run the code, there were a number of Python libraries that needed to be insta
 
 
 # Summary/Findings
-The results from the models are summarised below:
 
-![image.png](/attachment:image.png)
-
-
- 
-From the summary, we can see that the Decision Tree, Decision Tree with Adaboost,Decision Tree with Gradient boosting and Random Forest models achieved accuracy levels
-above the target level of 73% on the training set.
+Summarising the results, we can see that the Decision Tree, Decision Tree with Adaboost,Decision Tree with Gradient boosting and Random Forest models achieved accuracy levels above the target level of 73% on the training set.
 The Decision Tree with Adaboost and the Decision Tree with Gradient boosting were the best performing models, with accuracy scores of 92% and 89% respectively.
-From the summary above, we can also see that the feature of least importance varies depending on the model. In the case of both the Decision Tree with Adaboost, the 
-feature of least importance was X4. From this we can conclude that in the next survey the Question four (X4) could be left off for the Decision Tree with Adaboost model 
-as this question is the least important in predicting the customers happiness in these models. However, in the models Logistic Regression, Decision Tree, Decision Tree 
-with gradient boosting and random forest, X6 is the feature of least importance. This indicates that for these models, X6 could only be left off if the decision is made 
-to use these models to evaluate the model accuracy going forward.
+
+We can also see that the feature of least importance varies depending on the model. In the case of both the Decision Tree with Adaboost, the feature of least importance was X4. From this we can conclude that in the next survey the Question four (X4) could be left off for the Decision Tree with Adaboost model as this question is the least important in predicting the customers happiness in these models. However, in the models Logistic Regression, Decision Tree, Decision Tree with gradient boosting and random forest, X6 is the feature of least importance. This indicates that for these models, X6 could only be left off if the decision is made to use these models to evaluate the model accuracy going forward.
 
 As the Decision Tree with Adaboost is the best performing model using accuracy as the metric, this model would be selected over the others and question X4 in this case 
 would be the least important in determining the customers happiness.
