@@ -47,7 +47,7 @@ To run the code, there were a number of Python libraries that needed to be insta
 # Summary/Findings
 The results from the models are summarised below:
 
-![image.png](attachment:image.png)
+![image.png](/attachment:image.png)
 
 
  
