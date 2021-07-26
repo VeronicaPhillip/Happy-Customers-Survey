@@ -47,15 +47,13 @@ To run the code, there were a number of Python libraries that needed to be insta
 # Summary/Findings
 
 Summarising the results, we can see that the Decision Tree, Decision Tree with Adaboost,Decision Tree with Gradient boosting and Random Forest models achieved accuracy levels above the target level of 73% on the training set.
-The Decision Tree with Adaboost and the Decision Tree with Gradient boosting were the best performing models, with accuracy scores of 92% and 89% respectively.
+The Decision Treemodel was the best performing models, with accuracy scores of 73% on the test dataset.
 
-We can also see that the feature of least importance varies depending on the model. In the case of both the Decision Tree with Adaboost, the feature of least importance was X4. From this we can conclude that in the next survey the Question four (X4) could be left off for the Decision Tree with Adaboost model as this question is the least important in predicting the customers happiness in these models. However, in the models Logistic Regression, Decision Tree, Decision Tree with gradient boosting and random forest, X6 is the feature of least importance. This indicates that for these models, X6 could only be left off if the decision is made to use these models to evaluate the model accuracy going forward.
+We can also see that the features of least importance were X2 and X4 as determined from Th Chi Squared test. From this we can conclude that in the next survey Question 2 (X2) and  Question four (X4) could be left off for the modelling process as this question is the least important in predicting the customers happiness in these models. 
 
-As the Decision Tree with Adaboost is the best performing model using accuracy as the metric, this model would be selected over the others and question X4 in this case 
+As the Decision Tree model is the best performing model using accuracy as the metric, this model would be selected over the others and questions X2 and X4 in this case 
 would be the least important in determining the customers happiness.
 
-It is important however, that we take into consideration the fact that as the data changes the model evaluation will need to be revisited and X4 could become an important 
-feature as the data changes over time.
 
 
 
