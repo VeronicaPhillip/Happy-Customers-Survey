@@ -46,10 +46,11 @@ To run the code, there were a number of Python libraries that needed to be insta
 
 # Summary/Findings
 
-Summarising the results, we can see that the Decision Tree, Decision Tree with Adaboost,Decision Tree with Gradient boosting and Random Forest models achieved accuracy levels above the target level of 73% on the training set.
-The Decision Treemodel was the best performing models, with accuracy scores of 73% on the test dataset.
+Summarising the results, we can see that the Decision Tree Model achieved accuracy levels of 73% on the test set and as a result is the best performing model.
 
-We can also see that the features of least importance were X2 and X4 as determined from Th Chi Squared test. From this we can conclude that in the next survey Question 2 (X2) and  Question four (X4) could be left off for the modelling process as this question is the least important in predicting the customers happiness in these models. 
+The Logistic regression, Decision Tree with Adaboost, Decision Tree with Gradient boosting and Random Forest models all achieved accuracy scores below 73%, with Logistic regression and Random forest performing the worst with test score of 62%.
+
+From the chi squared test results, we can also see that the feature of least importance was X2 followed by X4 (as seen in the Chi squared test). From this we can conclude that in the next survey the Question two (X2) and Question four (X4) could be left off the modelling process as these questions are the least important in predicting the customers happiness in these models.
 
 As the Decision Tree model is the best performing model using accuracy as the metric, this model would be selected over the others and questions X2 and X4 in this case 
 would be the least important in determining the customers happiness.
